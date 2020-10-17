@@ -11,7 +11,7 @@ int main(){
 		// 1. print spaces n-row times
 		i = 1;
 		while(i<=n-row){
-			cout<<' ';
+			cout<<' ';// Printing space
 			i = i+1;
 		}
 
@@ -22,6 +22,7 @@ int main(){
 			no = no+1;
 			i = i +1;
 		}
+		
 		// 3. print decresing numbers starting from 2*row-2, do this task (row-1)times
 		i = 1,no=2*row-2;
 		while(i<=row-1){
