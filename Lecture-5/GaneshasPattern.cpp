@@ -10,16 +10,16 @@ int main(){
 	// 1. Print '*'
 	cout<<'*';
 	// 2. Space
-	for(int space = 1; space<=n-2;space = space + 1){
+	for(int space = 1 ; space<=n-2 ; space = space + 1){
 		cout<<' ';
 	}
 	// 3. N stars
-	for(int stars = 1; stars<=n;stars++){
+	for(int stars = 1 ; stars<=n ; stars++){
 		cout<<'*';
 	}
 	cout<<endl;
 	// 2nd task
-	for(int row = 1; row<=n-2; row++){
+	for(int row = 1 ; row<=n-2 ; row++){
 		cout<<'*';
 		for(int space = 1; space<=n-2;space++){
 			cout<<' ';
