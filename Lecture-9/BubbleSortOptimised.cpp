@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
 	
-	int a[]={5,3,2,4,1,10,12,3,4,5,6,8,90,-1,-2,-3,-4};
+	int a[]={5,1,2,3,4};
 	int n = sizeof(a)/sizeof(int);
 
 	for(int i = 0; i < n ; i++){
@@ -20,9 +20,10 @@ int main(){
 				swap(a[j],a[j+1]);
 			}
 		}
+
 		if(cnt == 0){
 			// that means no swapping took place, hence the array is sorted
-			break;
+			break; // this will stop the loop, or exit you from the loop
 		}
 	}
 
